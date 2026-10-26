@@ -1,0 +1,10 @@
+﻿cursor-public/postman
+cursor-public/gmail
+cursor-public/outlook
+claude-plugins-official/frontend-design
+claude-plugins-official/github
+claude-plugins-official/gitlab
+claude-plugins-official/mcp-server-dev
+claude-plugins-official/playwright
+claude-plugins-official/telegram
+claude-plugins-official/terraform
