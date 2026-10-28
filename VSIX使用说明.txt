@@ -1,0 +1,23 @@
+Cursor 扩展离线包（.vsix）
+导出时间: 2026-10-28
+
+已打包 36 个常用扩展，合计约 36 MB。
+未包含大包：通义灵码、Claude Code、Roo Code、Java 全家桶、IntelliCode、TypeScript Nightly，以及 Cursor 自带的 Remote SSH。
+
+一、家里电脑安装
+1. 把整个 cursor-vsix-export 文件夹拷到家里（或从 GitHub 拉取）
+2. 先安装 Cursor
+3. 在本文件夹打开 PowerShell，执行：
+
+   powershell -ExecutionPolicy Bypass -File .\install-vsix.ps1
+
+4. 装完后完全退出 Cursor 再打开
+
+也可手动安装单个扩展：
+   cursor --install-extension .\vsix\某个.vsix
+
+二、文件说明
+  vsix\                 所有 .vsix 安装包
+  install-vsix.ps1      一键安装脚本
+  vsix-list.txt         清单（扩展 ID / 版本 / 文件名 / 大小）
+  skipped.txt           本次跳过的大包与内置扩展

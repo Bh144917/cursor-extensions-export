@@ -1,0 +1,15 @@
+﻿Alibaba-Cloud.tongyi-lingma
+Anthropic.claude-code
+anysphere.remote-ssh
+ms-vscode.remote-explorer
+ms-vscode.vscode-typescript-next
+ms-vscode-remote.remote-ssh-edit
+redhat.java
+RooVeterinaryInc.roo-cline
+VisualStudioExptTeam.vscodeintellicode
+vscjava.vscode-gradle
+vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
+vscjava.vscode-java-pack
+vscjava.vscode-java-test
+vscjava.vscode-maven

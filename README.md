@@ -88,3 +88,14 @@ Gmail、Outlook、GitHub、GitLab、Postman、Telegram 装好后要重新登录�
 
 Java 相关扩展体积较大，家里电脑需要先装好 JDK。
 通义灵码、Claude Code、Roo Code 装好后要重新登录。
+## 离线 VSIX 安装（推荐，家里装不上市场扩展时用）
+
+仓库内 six/ 目录含 36 个常用扩展离线包（约 36MB），不含通义/Claude/Java 等大包。
+
+`powershell
+git clone https://github.com/Bh144917/cursor-extensions-export.git
+cd cursor-extensions-export
+powershell -ExecutionPolicy Bypass -File .\install-vsix.ps1
+`
+
+装完后完全退出 Cursor 再打开。详见 VSIX使用说明.txt。
